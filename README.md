@@ -1,28 +1,25 @@
-# Mini Brawl — Python Edition
+# Pocket Brawl
 
-A small playable top-down arena shooter inspired by Brawl Stars, built with Python and `tkinter`.
+Яскрава арена-стрілялка в стилі Brawl Stars, написана на чистому Python. Це фанатська гра без офіційних ресурсів Supercell.
 
-## Features
+## Запуск
 
-- WASD / arrow-key movement
-- Mouse aiming and shooting
-- Enemy bots and progressively harder waves
-- Obstacles, health pickups, score, ammo, and restart system
-- No third-party packages required
+Потрібен Python 3.9+ з Tkinter (він уже входить у стандартний Python для Windows).
 
-## Run
-
-Double-click `START_GAME.bat`, or run:
-
-```powershell
-py -3 mini_brawl.py
+```bash
+python main.py
 ```
 
-## Controls
+На Windows також можна двічі натиснути `START_GAME.bat`.
 
-| Control | Action |
-|---|---|
-| WASD / Arrow keys | Move |
-| Mouse | Aim |
-| Left mouse button / Space | Shoot |
-| R | Restart after defeat |
+## Керування
+
+- `WASD` або стрілки — рух
+- миша — приціл
+- ліва кнопка миші — постріл
+- `Space` — супер, коли жовте коло заповнене
+- `Shift` — ривок
+- `R` — новий матч після перемоги або поразки
+- `Esc` — пауза
+
+Знищуй ящики, збирай енергокуби, перемагай ботів і не заходь у фіолетову бурю. Останній боєць на арені перемагає.
